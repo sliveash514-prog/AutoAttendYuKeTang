@@ -19,7 +19,7 @@ jobs:
         steps:
             - name: Checkout
               run: |
-                  git clone https://github.com/0Chencc/AutoAttendYuKeTang ~/AutoAttendYuKeTang
+                  git clone https://github.com/sliveash514-prog/AutoAttendYuKeTang ~/AutoAttendYuKeTang
             - uses: actions/checkout@v2
             - name: Set up Python ${{ matrix.python-version }}
               uses: actions/setup-python@v2
@@ -47,7 +47,7 @@ jobs:
         steps:
             - name: Checkout
               run: |
-                  git clone https://github.com/0Chencc/AutoAttendYuKeTang ~/AutoAttendYuKeTang
+                  git clone https://github.com/sliveash514-prog/AutoAttendYuKeTang ~/AutoAttendYuKeTang
             - uses: actions/checkout@v2
             - name: Set up Python ${{ matrix.python-version }}
               uses: actions/setup-python@v2
